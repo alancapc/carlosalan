@@ -1,0 +1,19 @@
+@startuml component
+
+' Members
+participant "Participant A" as a
+participant "Participant B" as b
+
+' Interactions
+ == Plant UML Github rendering test ==
+a -> b : A to B request
+b --> a : B to A response
+
+' Design
+skinparam {
+    monochrome true
+    RoundCorner 10
+    footbox hide
+}
+
+@enduml
